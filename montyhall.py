@@ -1,7 +1,7 @@
 import random
 import sys
 results = []
-for l in range(1000000):
+while True:
     door = random.randrange(1,4)
     user = random.randrange(1,4)
     i = 0
