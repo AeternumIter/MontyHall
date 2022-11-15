@@ -1,0 +1,4 @@
+# MontyHall
+Solving the monty hall problem with math in python
+
+IMPORTANT: I HAVE SET THE PROGRAM TO GO ON FOREVER, SO PLEASE DO CONTROL+C ONCE YOU ARE SATISFIED WITH THE PROGRAM
