@@ -1,5 +1,4 @@
 import random
-import sys
 results = []
 while True:
     door = random.randrange(1,4)
@@ -9,16 +8,9 @@ while True:
         elim = random.randrange(1,4)
         if elim != door and elim != user:
             i+=1
-    i = 0
-    while i == 0:
-        rem = random.randrange(1,4)
-        if rem != elim and rem != user:
-            i+=1
-    if rem == door:
-        results.append(1)
-    elif door == user:
+    if door == user:
         results.append(0)
     else:
-        sys.exit("Error")
+        results.append(1)
     probability = sum(results)
     print(probability/len(results))
